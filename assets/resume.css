@@ -1,0 +1,31 @@
+.resume{
+  background:url('../images/city.jpg');
+  background-size: cover;
+  color: white;
+}
+
+.r{
+  color: white;
+  margin-left: 200px;
+  font: "Satisfy", cursive;
+  text-decoration: none;
+  margin-left: 200px;
+}
+.click{
+  font-family: 'Satisfy', cursive;
+  font-weight: lighter;
+  font-size: 125px;
+  line-height: 144px;
+  color: #eddaeb;
+  text-decoration: none;
+  margin-left: 100px;
+  margin-top: -300px;
+}
+
+.click:hover{
+  color: white;
+}
+
+/* .yucky{
+  margin-left: 125px;
+} */

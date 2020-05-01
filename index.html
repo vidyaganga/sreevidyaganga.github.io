@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="assets/style.css"/>
+  <link rel="stylesheet" type="text/css" href="assets/home.css"/>
+  <link rel="stylesheet" type="text/css" href="assets/about.css"/>
+  <link rel="stylesheet" type="text/css" href="assets/resume.css"/>
+  <link rel="stylesheet" type="text/css" href="assets/contact.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&display=swap">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css" integrity="sha256-+dIh4jG2jQTHZwW81yUo8h6tzXWcNumyNL5XPZbwp1E=" crossorigin="anonymous" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.css" integrity="sha256-++6EUpJmVNx8V1iT5u+aiOczfZ++FPa4sfEjG+txhOk=" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+        <header>
+          <nav>
+            <a href="#Home" class="menu-links"> Home </a>
+            <a href="#About" class="menu-links"> About Me</a>
+            <a href="#Resume" class="menu-links"> Resume </a>
+            <a href="#Contact" class="menu-links"> Contact Me </a>
+          </nav>
+        </header>
+        <div id = "fullPage">
+          <div class= "section home" data-anchor="Home">
+            <div class= box>
+              <p class="hi">Hi! I'm</p>
+              <h1>SreeVidya Ganga</h1>
+              <p class="meet"> Nice to Meet You!</p>
+            </div>
+            <div class= "half"> </div>
+          </div>
+
+
+          <div class= "section about" data-anchor="About">
+            <div class = "help">
+            <div class= "left">
+            <h1 class= "abouttitle">About me</h1>
+            <p class= "para" >  Hi! My name is SreeVidya Ganga, but people call me Vidya for short.
+               I’m currently a first year student at UC Berkeley studying computer science
+                and economics (Go Bears!). In my free time, you can catch me reading a book,
+                 taking pictures of my friends, or listening to hip hop or classical music.
+                 I’m also an avid lover of costco and traders joes, specifically trader joe’s
+                 frozen yogurt. hmu if you want to talk music, goof around, or need to rant--
+                  I’m your girl!  </p>
+            </div>
+            <img src= "images/vids.jpg" class="me">
+          </div>
+          </div>
+
+
+          <div class= "section resume" data-anchor="Resume" class="circling">
+            <div class="yucky">
+            <a href="assets/resume.pdf" target="_blank" class="click"> Click Me! </a>
+            <h2 class= "r"> Resume </h2>
+          </div>
+
+
+          </div>
+          <div class= "section contact" data-anchor="Contact">
+            <div class= "gray"> </div>
+            <h1 class = "c">contact me</h1>
+            <div id="pictures">
+        			<div class="row">
+        				<a href="https://github.com/vidyaganga"><img src= "images/gh.jpg" class="clicker one"/></a>
+        				<a href="https://www.facebook.com/sreevidya.ganga"><img src= "images/fb.jpg" class="clicker two"/></a>
+        				<a href="https://www.linkedin.com/in/sreevidya-ganga-70113076/"><img src= "images/ln.jpg" class="clicker three"/></a>
+                <a href="mailto: sreevidyaganga0@berkeley.edu"><img src= "images/mail.jpg" class="clicker four"/></a>
+        				<a href="https://www.instagram.com/vxganga/"><img src= "images/ig.jpg" class="clicker five"/></a>
+        			</div>
+        			<div class="row">
+        			</div>
+           </div>
+          </div>
+
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.js" integrity="sha256-wypDCQw+qwWtdARZAAtUMv/1SWOEB1XHZwAFoNc9Wn8=" crossorigin="anonymous"></script>
+        <script src="assets/head.js"></script>
+        <script>
+          new fullpage('#fullPage', {
+            autoScrolling: true,
+            navigation: true,
+            navigationPosition: 'left',
+            navigationTooltips: ["Home", "About", "Resume", "Contact"],
+            controlArrows: false,
+            slidesNavigation: true
+          })
+        </script>
+        <script src="assets/three.r95.min.js"></script>
+        <script src="assets/vanta.birds.min.js"></script>
+        <script>
+        VANTA.BIRDS({
+          el: ".home",
+          mouseControls: true,
+           touchControls: true,
+           minHeight: 200.00,
+           minWidth: 200.00,
+           scale: 1.00,
+           scaleMobile: 1.00,
+           backgroundColor: 0x8cd0e6,
+           color1: 0xd305ff,
+           color2: 0xfff000,
+           colorMode: "lerpGradient",
+           separation: 31.00
+        })
+        </script>
+
+</body>
+</html>

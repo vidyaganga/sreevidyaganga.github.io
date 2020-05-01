@@ -1,0 +1,44 @@
+.home {
+  background: url('../images/home.png');
+  background-size: cover;
+  height: 110%;
+  width: 100%;
+  color: white;
+  text-align: left;
+  /* display: flex;
+  flex-direction: row; */
+}
+
+.home .box{
+  position: relative;
+  width: 550px;
+  height: 700px;
+  margin-left: 475px;
+  /* background: url('../images/leaves.png'); */
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .half{
+  background-color: white;
+  height: 100%;
+  width: 50%;
+  margin-top: -550px;
+} */
+}
+
+.home p{
+  font-size: 20px;
+  margin-left: 100px;
+}
+
+.home .hi{
+  font-size: 45px;
+}
+.meet{
+  /* margin-top: -10px; */
+  font-size: 45px;
+}
