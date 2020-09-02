@@ -98,3 +98,12 @@
         h2 {
             font-weight: 700;
         }
+        
+        .files {
+            text-decoration: none;
+            color: grey;
+        }
+        
+        .files:hover {
+            font-weight: bold;
+        }
